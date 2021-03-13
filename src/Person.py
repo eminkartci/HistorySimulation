@@ -27,15 +27,29 @@ class Person:
         
     def save_person_txt(self):
         fileName = str(self.id)+"_"+self.name+".txt"
-        filePath = "../db/Person/"
-        os.chdir(filePath) 
-        f = open(fileName, "w")
+        print(os.getcwd())
+        filePath = os.getcwd()+"/db/Person/"
+        f = open(filePath + fileName, "w")
         f.write(self.personContent)
         f.write("\n\n@2021 All Rights Reserved Emin K & Asya B")
         f.close()
-    # burada sorun şu ben Person.py dosyasındayım ve "path" dediğim şey :D  aynen bi dizin çıkmam lazım iki nokta koyarsan bi üst dizine çıkar
-    # sonra da orada db diye bir yer arar :ok
     
+    def read_person_txt(id,name):
+        fileName = id+"_"+name
+        f = open(os.getcwd() +"/db/Person/"+fileName+".txt", "r")
+        currentPersonContent = f.read()
+
+        contentArr = currentPersonContent.split(":")
+        contentArr = contentArr[1:]
+
+        personInfo = []
+
+        for line in contentArr:
+            lineArr = line.split("\n")
+            personInfo.append(lineArr[0].lstrip())
+
+        currentPerson = Person(id,personInfo[0],personInfo[1],personInfo[2],personInfo[3])
+        
 
        
 
@@ -43,7 +57,5 @@ class Person:
 
 
 ## DRIVER PROGRAM
-person1 = Person(1,"Emin","Kartci","Male",21)
-person1.save_person_txt()
-person2 = Person(2,"Asya","Bostaoğlu","Female",20)
-person2.save_person_txt()
+
+Person.read_person_txt("1","Emin")
