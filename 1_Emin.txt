@@ -1,0 +1,9 @@
+
+------ PERSON 1 ------
+| Name      : Emin
+| Surname   : Kartci
+| Gender    : Male
+| Age       : 21
+        
+
+@2021 All Rights Reserved Emin K & Asya B
