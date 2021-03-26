@@ -54,7 +54,7 @@ class Person:
     def read_person_txt(id,name):
 
         # file name -> id_name.txt
-        fileName = id+"_"+name+".txt"
+        fileName = str(id)+"_"+name+".txt"
         # path -> db -> Person 
         filePath = os.getcwd()+"/db/Person/"
         # open the file
