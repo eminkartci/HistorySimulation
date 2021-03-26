@@ -70,7 +70,7 @@ class Person:
         contentArr = contentArr[1:]
 
         # initialize a list
-        personInfo = ['Emin']
+        personInfo = []
 
         # for each element 
         for line in contentArr:
@@ -84,8 +84,3 @@ class Person:
         # create a new object by using the parameters
                         #     id  name          surname       gender        age
         currentPerson = Person(id,personInfo[0],personInfo[1],personInfo[2],personInfo[3])
-        
-
-## DRIVER PROGRAM
-
-Person.read_person_txt("2","Asya")
