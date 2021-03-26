@@ -1,5 +1,5 @@
 
------- PERSON 1 -----
+------ PERSON 1 ------
 | Name      : Emin
 | Surname   : Kartci
 | Gender    : Male

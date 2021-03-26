@@ -1,0 +1,9 @@
+
+------ community 1 ------
+| Title         : Turk
+| Location      : Turkey - Europe
+| Population    : 240
+| Religion      : Muslim
+        
+
+@2021 All Rights Reserved Emin K & Asya B

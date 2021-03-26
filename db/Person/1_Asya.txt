@@ -1,7 +1,7 @@
 
------- PERSON 2 ------
+------ PERSON 1 ------
 | Name      : Asya
-| Surname   : Bostaoğlu
+| Surname   : Bostanoglu
 | Gender    : Female
 | Age       : 20
         

@@ -1,9 +1,0 @@
-
------- community 2 ------
-| Title         : Almanya
-| Location      : Avrupa
-| Population    : 340
-| Religion      : Katolik
-        
-
-@2021 All Rights Reserved Emin K & Asya B

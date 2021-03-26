@@ -1,9 +1,0 @@
-
------- community 1 ------
-| Title         : Türkiye
-| Location      : Asya-Avrupa
-| Population    : 500
-| Religion      : Müslüman
-        
-
-@2021 All Rights Reserved Emin K & Asya B
