@@ -5,12 +5,12 @@ class Person:
 
     # construction
     def __init__(self,id,name,surname,gender,age):
-        self.id = id
-        self.name = name
-        self.surname = surname
-        self.gender = gender
-        self.age = age
-        self.personContent = ""                     # to print & save the parameters of the object
+        self.id             = id
+        self.name           = name
+        self.surname        = surname
+        self.gender         = gender
+        self.age            = age
+        self.personContent  = ""                     # to print & save the parameters of the object
         self.print_person_console()                 # after initializing the object print to the screen
         self.save_person_txt()                      # after initializing the object save it automatically 
 
