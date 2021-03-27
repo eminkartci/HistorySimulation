@@ -14,6 +14,14 @@ class Community:
         self.print_community_console()                 # after initializing the object print to the screen
         self.save_community_txt()                      # after initializing the object save it automatically 
 
+    # add a person to people array list
+    def add_person(self,person):
+        # append people
+        self.people.append(person)
+        # inform the user
+        print(f"{person.name} is appended to {self.title} successfully !")
+
+
     # print object to the screen
     def print_community_console(self,willPrint = True):
 
