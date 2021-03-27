@@ -13,3 +13,4 @@ P1 = Person(1,"Emin","Kartci","Male",21)
 P2 = Person(1,"Asya","Bostanoglu","Female",20)
 
 # Somehow we need to connect people and community
+TurkCommEuro.add_person(P1)
