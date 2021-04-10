@@ -9,8 +9,8 @@ from Person import  Person
 class World:
 
     def __init__(self):
-        persons     = []
-        communities = []
+        self.persons     = []
+        self.communities = []
 
     # This function interacts with the user
         # automatic ID
@@ -19,7 +19,16 @@ class World:
         # Save Community
         # Add Community to class list
     def create_community(self):
+        current_id = len(self.communities) + 1
         print("Community Creating...")
+        title = input("Title: ")
+        location = input("Location: ")
+        population = input("Population: ")
+        religion = input("Religion: ")
+        Current_Community = Community(current_id, title, location, population, religion)
+        self.communities.append(Current_Community)
+
+        
 
 world1 = World()
 world1.create_community()

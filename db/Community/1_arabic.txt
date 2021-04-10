@@ -1,0 +1,9 @@
+
+------ community 1 ------
+| Title         : arabic
+| Location      : Sudan
+| Population    : 100
+| Religion      : Muslim
+        
+
+@2021 All Rights Reserved Emin K & Asya B
