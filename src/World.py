@@ -41,7 +41,9 @@ class World:
         Current_Person = Person(current_id, name, surname, gender, age)
         self.people.append(Current_Person)
 
-        
+    def print_people(self):
+        for person in self.people:
+            person.print_person_console()
 
 world1 = World()
 world1.create_community()
