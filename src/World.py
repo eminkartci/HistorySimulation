@@ -9,7 +9,7 @@ from Person import  Person
 class World:
 
     def __init__(self):
-        self.persons     = []
+        self.people     = []
         self.communities = []
 
     # This function interacts with the user
@@ -23,15 +23,29 @@ class World:
         print("Community Creating...")
         title = input("Title: ")
         location = input("Location: ")
-        population = input("Population: ")
+        population = int(input("Population: "))
         religion = input("Religion: ")
         Current_Community = Community(current_id, title, location, population, religion)
         self.communities.append(Current_Community)
+
+        for i in range(population):
+            self.create_person()
+
+    def create_person(self):
+        current_id = len(self.people) + 1
+        print("Person Creating...")
+        name = input("Name: ")
+        surname = input("Surname: ")
+        gender = input("Gender: ")
+        age = input("Age: ")
+        Current_Person = Person(current_id, name, surname, gender, age)
+        self.people.append(Current_Person)
 
         
 
 world1 = World()
 world1.create_community()
+#world1.create_person()
 
 ####### MANUEL CODE ########
 # # Create a Community

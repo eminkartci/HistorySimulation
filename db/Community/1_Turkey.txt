@@ -1,0 +1,9 @@
+
+------ community 1 ------
+| Title         : Turkey
+| Location      : Europe
+| Population    : 10
+| Religion      : Muslim
+        
+
+@2021 All Rights Reserved Emin K & Asya B
